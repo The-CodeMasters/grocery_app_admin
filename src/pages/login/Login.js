@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg"
 import { Link } from "react-router-dom";
 export default function Login() {
     return (
-        <div className="main">
+        <div className="login">
             <div className="left">
                <img src={logo} alt=""/>
             </div>

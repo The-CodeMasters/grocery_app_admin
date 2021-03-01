@@ -1,9 +1,9 @@
-.main{
+.login{
     height: 100vh;
     display: flex;
 }
 
-.main .left{
+.login .left{
     width: 40%;
     background-color: #53B175;
     height: 100%;
@@ -14,12 +14,12 @@
     
 }
 
-.main .left img{
+.login .left img{
     object-fit: fill;
     width: 80%;
 }
 
-.main .right{
+.login .right{
    
     width: 100%;
     display: flex;
@@ -27,12 +27,12 @@
     justify-content: center;
 }
 
-.main .right .container{
+.login .right .container{
   
     width:70%;
     max-width: 450px;
 }
-.main .right .container h1{
+.login .right .container h1{
     margin-bottom: 50px;
 }
 

@@ -1,0 +1,37 @@
+.leftNavigator{
+    width: 300px;
+    background-color: #ffffff;
+}
+
+.logo-container{
+    height: 200px;
+    background-color: #53B175;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo-container img{
+    object-fit: fill;
+    width: 80%;
+}
+
+.navigators .nev-item{
+    padding: 12px ;
+    display: flex;
+    align-items: center;
+   padding-left: 30px;
+  
+   cursor: pointer;
+   
+   
+}
+
+.navigators .nev-item:hover{
+background-color: #cee0d5;
+}
+.navigators .nev-item h4{
+    margin: 0px;
+    margin-left: 30px;
+    font-weight: 500;
+}

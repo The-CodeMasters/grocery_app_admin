@@ -1,0 +1,120 @@
+.deshboard{
+    background-color: #f0f5fb;
+    display: flex;
+    height: 100vh;
+  
+}
+
+.deshboard-main{
+    width: 100%;
+    
+    
+}
+
+.deshboard .deshboard-main h5{
+    font-weight: 500;
+    color: gray;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.order-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.order-table table{
+    width: 80%;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+   
+}
+
+.order-table .thead{
+   color: gray;
+   font-weight: 600;
+   border-bottom: 1px solid gray;
+   height: 50px;
+   background-color: #f5f5f5;
+   font-size: 20px;
+
+}
+
+
+
+.order-table td{
+width: 20%;
+word-wrap: break-word;
+padding: 5px 10px;
+color:gray;
+font-weight: 500;
+ border-bottom: 0.1px solid gray;
+
+
+}
+
+.order-table .status-completed{
+    background-color: #48ad31;
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+     padding: 5px 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.order-table .status-pending{
+    background-color: #f77f3f;
+     color: white;
+    font-size: 12px;
+    width: fit-content;
+     padding: 5px 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.order-table .status-canceled{
+    background-color:#ff5259;
+     color: white;
+    font-size: 12px;
+    width: fit-content;
+     padding: 5px 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+
+.down-sec{
+   position: absolute;
+  bottom: 40px;
+  display: flex;
+
+}
+
+.down-sec-box{
+    background-color: #50b078;
+    color: #ffffff;
+    width: 200px;
+  padding: 15px 10px;
+  border-radius: 10px;
+   margin-left: 30px;
+}
+
+.down-sec-box p{
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.down-sec-box h2{
+    margin: 5px;
+    font-size: 30px;
+}

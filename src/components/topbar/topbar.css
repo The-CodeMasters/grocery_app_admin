@@ -1,0 +1,8 @@
+.topbar{
+    height: 50px;
+    background-color: #A0D4B3;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    color: #333333;
+}
