@@ -1,0 +1,189 @@
+
+[
+    {
+        "orderno":"#12155555",
+        "status":"completed",
+        "operator":"deep sangani",
+        "location":"120,silver-height,rajkot",
+       "statusCss":"status-completed",
+       "products":[
+        {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        }
+        
+       ],
+       "orderDetails":{
+           "orderid":"#12155555",
+           "payment":"cash on delivery",
+           "date":"january 06,2021 at 01:39 PM",
+           "phoneno":"91800253698",
+           "address":"102,shreeji avanu,yograjnagar1,Manharpura 1,madhapar"
+       },
+       "promo":{
+           "code":"FLAT20",
+           "rate":20
+       },
+       "taxes":8.50,
+       "checkouttotal":1125
+    },
+    {
+        "orderno":"#115555",
+        "status":"canceled",
+        "operator":"deep sangani",
+        "location":"main street",
+        "statusCss":"status-canceled",
+        "products":[
+        {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        }
+       ],
+       "orderDetails":{
+           "orderid":"#12155555",
+           "payment":"cash on delivery",
+           "date":"january 06,2021 at 01:39 PM",
+           "phoneno":"91800253698",
+           "address":"102,shreeji avanu,yograjnagar1,Manharpura 1,madhapar"
+       },
+       "promo":{
+           "code":"FLAT20",
+           "rate":20
+       },
+       "taxes":8.50,
+       "checkouttotal":1125
+    },
+    {
+        "orderno":"#565656",
+        "status":"pending",
+        "operator":"deep sangani",
+        "location":"secont st",
+        "statusCss":"status-pending",
+        "products":[
+        {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        }
+       ],
+       "orderDetails":{
+           "orderid":"#12155555",
+           "payment":"cash on delivery",
+           "date":"january 06,2021 at 01:39 PM",
+           "phoneno":"91800253698",
+           "address":"102,shreeji avanu,yograjnagar1,Manharpura 1,madhapar"
+       },
+       "promo":{
+           "code":"FLAT20",
+           "rate":20
+       },
+       "taxes":8.50,
+       "checkouttotal":1125
+    },
+    {
+        "orderno":"#125555",
+        "status":"pending",
+        "operator":"deep sangani",
+        "location":"3rd street",
+        "statusCss":"status-pending",
+        "products":[
+        {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+            "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+             "unit":"kg"
+        },
+         {
+            "name":"floar rice",
+            "price":75,
+            "qty":5,
+             "unit":"kg"
+        }
+       ],
+       "orderDetails":{
+           "orderid":"#12155555",
+           "payment":"cash on delivery",
+           "date":"january 06,2021 at 01:39 PM",
+           "phoneno":"91800253698",
+           "address":"102,shreeji avanu,yograjnagar1,Manharpura 1,madhapar"
+       },
+       "promo":{
+           "code":"FLAT20",
+           "rate":20
+       },
+       "taxes":8.50,
+       "checkouttotal":1125
+    }
+
+]

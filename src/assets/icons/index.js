@@ -6,5 +6,6 @@ import order from "./orders_icon.svg"
 import product from "./products_icon.svg"
 import setting from "./setting_icon.svg"
 import user from "./user_icon.svg"
+import back from "./back.svg"
 
- export {deshboard,earning,history,logout,order,product,setting,user}
+export { deshboard, earning, history, logout, order, product, setting, user, back }

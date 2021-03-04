@@ -1,7 +1,7 @@
 .deshboard{
     background-color: #f0f5fb;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
   
 }
 
@@ -16,6 +16,8 @@
     color: gray;
     font-size: 18px;
     margin-left: 20px;
+    
+    
 }
 
 .order-table{
@@ -42,10 +44,13 @@
    height: 50px;
    background-color: #f5f5f5;
    font-size: 20px;
+   cursor: default;
 
 }
 
-
+.order-table tr{
+     cursor: pointer;
+}
 
 .order-table td{
 width: 20%;
@@ -54,23 +59,21 @@ padding: 5px 10px;
 color:gray;
 font-weight: 500;
  border-bottom: 0.1px solid gray;
+ 
+
 
 
 }
 
 .order-table .status-completed{
     background-color: #48ad31;
-    color: white;
-    font-size: 12px;
-    width: fit-content;
-     padding: 5px 0px;
-    border-radius: 5px;
-    text-align: center;
-    width: 100px;
+   
+}
+.order-table .status-pending{
+    background-color:#fe8341;
 }
 
-.order-table .status-pending{
-    background-color: #f77f3f;
+.order-table .status{
      color: white;
     font-size: 12px;
     width: fit-content;
@@ -82,13 +85,6 @@ font-weight: 500;
 
 .order-table .status-canceled{
     background-color:#ff5259;
-     color: white;
-    font-size: 12px;
-    width: fit-content;
-     padding: 5px 0px;
-    border-radius: 5px;
-    text-align: center;
-    width: 100px;
 }
 
 
@@ -117,4 +113,8 @@ font-weight: 500;
 .down-sec-box h2{
     margin: 5px;
     font-size: 30px;
+}
+
+.order-row:hover{
+    background-color:#bfe4ce85;
 }

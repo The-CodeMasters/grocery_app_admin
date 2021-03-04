@@ -1,73 +1,86 @@
-import React from "react"
+import React, { useState } from "react"
 import LeftNavigator from "../../components/leftNavigator/LeftNavigator"
 import "./deshboard.css"
 import Topbar from "../../components/topbar/Topbar.js"
+import orders from "../../data/orders.json"
+import OrderSummery from "../../components/orderSummery/OrderSummery"
+
 export default function Deshboard () {
-  return (
-    <div className="deshboard">
-      <LeftNavigator />
-      <div className="deshboard-main">
-        <Topbar />
-        <h5>Today's Orders</h5>
-        <div className="order-table">
-          <table>
-            <tr className="thead">
-              <td>Order no</td>
-              <td>status</td>
-              <td>Operator</td>
-              <td>Location</td>
+  const [clicked, setclicked] = useState(false)
+  const [order, setOrder] = useState(null)
+  const handleClick = (order) => {
+    setclicked(!clicked)
+    setOrder(order)
 
-            </tr>
-            <tr>
-              <td>#1212121</td>
-              <td><div className="status-completed">Completed</div></td>
-              <td>deep sangani</td>
-              <td>
-                <p>120,silver heights,rajkot</p>
-              </td>
+  }
 
-            </tr>
-            <tr>
-              <td>#54454454</td>
-              <td><div className="status-pending">Pending</div></td>
-              <td>mr.yn</td>
-              <td>
-                <p>120,silver heights,rajkot</p>
-              </td>
-
-            </tr>
-            <tr>
-              <td>#1878777</td>
-              <td><div className="status-canceled">Canceled</div></td>
-              <td>ug bhai</td>
-              <td>
-                <p>125,silver heights,rajkot</p>
-              </td>
-
-            </tr>
-            <tr>
-              <td>#1878777</td>
-              <td><div className="status-pending">Pending</div></td>
-              <td>suraj bhai</td>
-              <td>
-                <p>185,silver heights,rajkot</p>
-              </td>
-
-            </tr>
-
-          </table>
+  if (clicked == true) {
+    return (
+      <div className="deshboard">
+        <LeftNavigator />
+        <div className="deshboard-main">
+          <Topbar />
+          <OrderSummery clicked={clicked} setclicked={setclicked} order={order ? order : null} />
         </div>
-        <div className="down-sec">
-          <div className="down-sec-box">
-            <p>Total Profit</p>
-            <h2>₹ 50000</h2>
+      </div>
+
+    )
+  } else {
+    return (
+      <div className="deshboard">
+        <LeftNavigator />
+        <div className="deshboard-main">
+          <Topbar />
+          <h5>Today's Orders</h5>
+          <div className="order-table">
+            <table>
+              <tr className="thead">
+                <td>Order no</td>
+                <td>status</td>
+                <td>Operator</td>
+                <td>Location</td>
+
+              </tr>
+
+
+              {
+                orders.map(order => {
+                  const orderStatus = "status " + order.statusCss
+                  return (
+                    <tr onClick={() => handleClick(order)} className="order-row">
+                      <td>{order.orderno}</td>
+                      <td><div className={orderStatus}>{order.status}</div></td>
+                      <td>{order.operator}</td>
+                      <td>
+                        <p>{order.location}</p>
+                      </td>
+
+                    </tr>
+                  )
+                })
+
+
+              }
+
+
+            </table>
           </div>
-          <div className="down-sec-box">
-            <p>Total Users</p>
-            <h2>125</h2>
+          <div className="down-sec">
+            <div className="down-sec-box">
+              <p>Total Profit</p>
+              <h2>₹ 50000</h2>
+            </div>
+            <div className="down-sec-box">
+              <p>Total Users</p>
+              <h2>125</h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+
+    )
+  }
+
+
+
 }

@@ -1,33 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./login.css"
 import logo from "../../assets/logo.svg"
 import { Link } from "react-router-dom";
-export default function Login() {
+export default function Login () {
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+    const handleSubmit = () => {
+
+    }
     return (
         <div className="login">
             <div className="left">
-               <img src={logo} alt=""/>
+                <img src={logo} alt="" />
             </div>
             <div className="right">
                 <div className="container">
                     <h1>Admin Panel</h1>
                     <div className="input-group">
                         <label htmlFor="">Email</label>
-                        <input type="text"/>
+                        <input type="text" onChange={(e) => setEmail(e.target.value)} value={Login} />
                     </div>
                     <div className="input-group">
                         <label htmlFor="">password</label>
-                        <input type="password"/>
+                        <input type="password" />
                     </div>
                     <div className="keep-me-login">
-                        <input type="checkbox"/>
+                        <input type="checkbox" />
                         <label htmlFor="">Keep me login</label>
                     </div>
-                   
-                        <Link to="/deshboard">
+
+                    <Link to="/deshboard">
                         <button>Login</button>
-                        </Link>
-                    
+                    </Link>
+
                 </div>
             </div>
         </div>

@@ -1,0 +1,17 @@
+discuss with yash dt: 4 mar
+    [+]  SOCKET in order
+    [+]  api order object
+        [*] name of person is missing
+    [+]  admin login 
+
+
+
+
+
+
+
+
+
+change
+
+[-] remove units
