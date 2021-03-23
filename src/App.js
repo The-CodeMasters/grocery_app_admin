@@ -1,18 +1,19 @@
 import './App.css';
 import Login from './pages/login/Login.js';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Deshboard from './pages/deshboard/Deshboard.js';
+import Routes from './Routes.js'
+import { useState } from 'react';
 function App () {
-  return (
-    <Router>
-      <Switch>
-        <div className="App">
-          <Route path="/" exact component={Login} />
-          <Route path="/deshboard" component={Deshboard} />
-        </div>
-      </Switch>
-    </Router>
-  );
+  const [islogin, setislogin] = useState(false)
+
+  if (islogin) {
+    return (
+      <Routes islogin={islogin} setislogin={setislogin} />
+    )
+  } else {
+    return (
+      <Login islogin={islogin} setislogin={setislogin} />
+    );
+  }
 }
 
 export default App;

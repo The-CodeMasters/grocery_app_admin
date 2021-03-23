@@ -11,39 +11,55 @@ export default function LeftNavigator () {
             </div>
             <div className="navigators">
 
-                <div className="nev-item">
-                    <img src={deshboard} alt="" height="30px" width="30px" />
-                    <h4>Deshboard</h4>
-                </div>
+                <Link to="/" className="link">
+                    <div className="nev-item">
+                        <img src={deshboard} alt="" height="30px" width="30px" />
+                        <h4>Deshboard</h4>
+                    </div>
+                </Link>
 
-                <div className="nev-item">
-                    <img src={user} alt="" height="30px" width="30px" />
-                    <h4>Users</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={product} alt="" height="30px" width="30px" />
-                    <h4>Products</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={earning} alt="" height="30px" width="30px" />
-                    <h4>Earning</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={order} alt="" height="30px" width="30px" />
-                    <h4>Orders</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={history} alt="" height="30px" width="30px" />
-                    <h4>History</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={setting} alt="" height="30px" width="30px" />
-                    <h4>Settings</h4>
-                </div>
-                <div className="nev-item">
-                    <img src={logout} alt="" height="30px" width="30px" />
-                    <h4>Log Out</h4>
-                </div>
+                <Link to="/Users" className="link">
+                    <div className="nev-item">
+                        <img src={user} alt="" height="30px" width="30px" />
+                        <h4>Users</h4>
+                    </div>
+                </Link>
+                <Link to="/products" className="link">
+                    <div className="nev-item">
+                        <img src={product} alt="" height="30px" width="30px" />
+                        <h4>Products</h4>
+                    </div>
+                </Link>
+                <Link to="/earning" className="link">
+                    <div className="nev-item">
+                        <img src={earning} alt="" height="30px" width="30px" />
+                        <h4>Earning</h4>
+                    </div>
+                </Link>
+                <Link to="/orders" className="link">
+                    <div className="nev-item">
+                        <img src={order} alt="" height="30px" width="30px" />
+                        <h4>Orders</h4>
+                    </div>
+                </Link>
+                <Link to="/history" className="link">
+                    <div className="nev-item">
+                        <img src={history} alt="" height="30px" width="30px" />
+                        <h4>History</h4>
+                    </div>
+                </Link>
+                <Link to="/setting" className="link">
+                    <div className="nev-item">
+                        <img src={setting} alt="" height="30px" width="30px" />
+                        <h4>Settings</h4>
+                    </div>
+                </Link>
+                <Link to="/logout" className="link">
+                    <div className="nev-item">
+                        <img src={logout} alt="" height="30px" width="30px" />
+                        <h4>Log Out</h4>
+                    </div>
+                </Link>
 
             </div>
         </div>

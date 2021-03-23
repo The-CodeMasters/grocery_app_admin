@@ -76,3 +76,22 @@ button{
 button:active{
     background-color: teal;
 }
+
+
+/* error */
+
+.container .error{
+    color: rgb(207, 63, 63);
+    background-color: rgba(224, 173, 173, 0.609);
+    font-size: 15px;
+    border: 1px solid tomato;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+   
+}
+
+.container .error p{
+    margin: 0px;
+}
+

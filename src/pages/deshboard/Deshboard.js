@@ -19,7 +19,7 @@ export default function Deshboard () {
       <div className="deshboard">
         <LeftNavigator />
         <div className="deshboard-main">
-          <Topbar />
+          <Topbar title="Deshboard" />
           <OrderSummery clicked={clicked} setclicked={setclicked} order={order ? order : null} />
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Deshboard () {
       <div className="deshboard">
         <LeftNavigator />
         <div className="deshboard-main">
-          <Topbar />
+          <Topbar title="Deshboard" />
           <h5>Today's Orders</h5>
           <div className="order-table">
             <table>

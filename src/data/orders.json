@@ -10,44 +10,44 @@
         {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         }
         
        ],
@@ -75,20 +75,20 @@
         {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         }
        ],
        "orderDetails":{
@@ -115,20 +115,20 @@
         {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         }
        ],
        "orderDetails":{
@@ -155,20 +155,20 @@
         {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-            "unit":"kg"
+            "qty":5
+           
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-             "unit":"kg"
+            "qty":5
+            
         },
          {
             "name":"floar rice",
             "price":75,
-            "qty":5,
-             "unit":"kg"
+            "qty":5
+            
         }
        ],
        "orderDetails":{

@@ -32,10 +32,10 @@ const Product = ({ product }) => {
             <p style={{ fontWeight: "bolder" }}>{product.name}</p>
             <div className="price-qty">
                 <div className="qty">
-                    {product.qty} {product.unit}
+                    {product.qty}
                 </div>
                 <span className="cross">x</span>
-                <span className="price">{product.price}/{product.unit}</span>
+                <span className="price">₹{product.price}</span>
             </div>
             <div className="totalPrice">
                 <p>₹{product.price * product.qty}</p>
