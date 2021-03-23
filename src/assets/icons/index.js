@@ -7,5 +7,8 @@ import product from "./products_icon.svg"
 import setting from "./setting_icon.svg"
 import user from "./user_icon.svg"
 import back from "./back.svg"
+import pen from "./pen.svg"
+import trash from "./trash.svg"
+import search from "./search.svg"
 
-export { deshboard, earning, history, logout, order, product, setting, user, back }
+export { deshboard, earning, history, logout, order, product, setting, user, back, pen, trash, search }

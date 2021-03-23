@@ -1,9 +1,9 @@
 import React from 'react'
 import "./topbar.css"
-export default function Topbar() {
+export default function Topbar ({ title }) {
     return (
         <div className="topbar">
-            <h2>Deshboard</h2>
+            <h2>{title}</h2>
         </div>
     )
 }
